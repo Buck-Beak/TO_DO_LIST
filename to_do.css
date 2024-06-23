@@ -1,0 +1,54 @@
+@font-face {
+    font-family: my_font;
+    src: url(/font/IndieFlower-Regular.ttf);
+}
+body{
+    font-family: my_font;
+    position:relative;
+    margin-left: 500px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width:50px;
+    background-color: transparent; 
+    border:none;
+}
+
+button img{
+    object-fit: contain;
+    height:100%;
+    width:100%;
+}
+
+.textbox{
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.edit-delete{
+    display:flex;
+}
+
+.buttons{
+    display:flex;
+}
+
+.textbox input{
+    border-radius:25px;
+    font-family: my_font;
+    text-align: center;
+    width:500px;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 40px;
+}

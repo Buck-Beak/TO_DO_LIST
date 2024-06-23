@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="to_do.css">
+        <script src="to_do.js"></script>
+        <title>TO DO LIST</title>
+    </head>
+    <body>
+        <h1>TO DO LIST</h1>
+        <h2>Enter your activities!</h2>
+        <div class="components">
+            <div id="text-box-container" class="textbox">
+                <input type="text">
+                <div id="modify" class="edit-delete">
+                    <button type="button" onclick="editButton(this)"><img src="/images/edit.png"></button>
+                    <button type="button" onclick="deleteButton(this)"><img src="/images/bin.png"></button>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="plus" onclick="addTextbox()"><img src="/images/add-post.png"></button>
+               <!-- <button type="tick" onclick="finish()">finish</button>-->
+            </div>
+        </div>
+        
+    </body>
+</html>
